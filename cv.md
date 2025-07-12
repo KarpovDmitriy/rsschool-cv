@@ -11,18 +11,15 @@
 ## About me
 I am a .NET programmer with 8 years of experience in software development. There have been many interesting projects during my career. My goal in this course is to fill the gaps in my front-end knowledge, as well as learn something new.
 
-
 ## Technical skills
-* 8+ years of experience in software development on the .NET stack
-* 7 years of work with such CMS as: Sitecore, Optimizely and Umbraco
+* 8+ years of experience in software development on the .NET stack.
+* 7 years of work with such CMS as: Sitecore, Optimizely and Umbraco.
 * Hand-on experience with: ADO.NET, Entity Framework, SQL Server, Web Api, Unit Tests.
 
 ## Education
-
-Belarusian State University of Informatics and Radioelectronics
+Belarusian State University of Informatics and Radioelectronics.
 
 ## Languages
-
 * Russin - native
 * English - B2
 
