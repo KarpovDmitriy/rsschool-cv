@@ -1,4 +1,4 @@
-![Alt-текст](photo.jpeg)
+![Alt-текст](assets/img/photo.jpeg)
 
 # CV#1. Markdown & Git
 
