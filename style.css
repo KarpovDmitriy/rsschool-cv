@@ -6,26 +6,30 @@ html {
     scroll-behavior: smooth;
 }
 
+.global-container {
+    margin: 50px 0px 50px 0px;
+}
+
 body {
-    border: 10px solid rgb(68, 0, 255);
-    min-height: 100vh;
+    /* border: 10px solid rgb(68, 0, 255); */
     margin: 0;
     padding: 0;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
+    background-color: #d3d3d3;
 }
 
 .header {
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .main {
-    border: 1px solid rgb(137, 231, 86);
+    /* border: 1px solid rgb(137, 231, 86); */
 }
 
 .footer {
-    border: 1px solid rgb(68, 0, 255);
+    /* border: 1px solid rgb(68, 0, 255); */
 }
 
 .container {
@@ -33,11 +37,24 @@ body {
     margin: 0 auto;
 }
 
+.header-container {
+    background-color: #f0f0f0;
+}
+
+.main-container {
+    background-color: #fafafa;
+}
+
+.footer-container {
+    background-color: #f0f0f0;
+}
+
 .nav-list {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 0;
 }
 
 .nav-link {
