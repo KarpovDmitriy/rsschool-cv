@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV</title>
+	<link rel="icon" href="assets/img/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-coy.min.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"></script>
+</head>
+
+<body>
+	<div class="global-container">
+		<header class="header">
+			<div class="container header-container">
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a href="#profile" class="nav-link">Profile</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contacts" class="nav-link">Contacts</a>
+						</li>
+						<li class="nav-item">
+							<a href="#aboutme" class="nav-link">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a href="#technicalskills" class="nav-link">Tech skills</a>
+						</li>
+						<li class="nav-item">
+							<a href="#education" class="nav-link">Education</a>
+						</li>
+						<li class="nav-item">
+							<a href="#languages" class="nav-link">Languages</a>
+						</li>
+						<li class="nav-item">
+							<a href="#portfolio" class="nav-link">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#codeexample" class="nav-link">Code</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="container main-container">
+				<section class="section" id="profile">
+					<h1 class="section-title">Profile</h1>
+					<img class="image-avatar" src="./assets/img/photo.jpeg" alt="Personal photo">
+				</section>
+				<section class="section" id="contacts">
+					<h2 class="section-title">Contacts</h2>
+					<ul class="custom-list">
+						<li class="custom-list-item">Dmitriy Karpov</li>
+						<li class="custom-list-item"><span class="contact-prefix">mobile:</span> +375 (29) XXX-XX-XX</li>
+						<li class="custom-list-item"><span class="contact-prefix">gmail:</span> karpov.dmitriy.vl@gmail.com</li>
+						<li class="custom-list-item"><span class="contact-prefix">discord (server nickname):</span> Karpov Dmitriy (@KarpovDmitriy)</li>
+					</ul>
+				</section>
+				<section class="section" id="aboutme">
+					<hr>
+					<h2 class="section-title">About Me</h2>
+					<p>I am a .NET programmer with 8 years of experience in software development. There have been many interesting projects during my career. My goal in this course is to fill the gaps in my front-end knowledge, as well as learn something new.</p>
+					<br>
+					<p>I am constantly interested in new things, I love to travel and spend time in an interesting way.</p>
+				</section>
+				<section class="section" id="technicalskills">
+					<hr>
+					<h2 class="section-title">Technical skills</h2>
+					<ul class="custom-list">
+						<li class="custom-list-item">8+ years of experience in software development on the .NET stack</li>
+						<li class="custom-list-item">7 years of work with such CMS as: Sitecore, Optimizely and Umbraco</li>
+						<li class="custom-list-item">Hand-on experience with: ADO.NET, Entity Framework, SQL Server, Web Api, Unit Tests</li>
+					</ul>
+				</section>
+				<section class="section" id="education">
+					<hr>
+					<h2 class="section-title">Education</h2>
+					<p>Belarusian State University of Informatics and Radioelectronics</p>
+				</section>
+				<section class="section" id="languages">
+					<hr>
+					<h2 class="section-title">Languages</h2>
+					<ul class="custom-list">
+						<li class="custom-list-item">Russin - native</li>
+						<li class="custom-list-item">English - B2</li>
+					</ul>
+				</section>
+				<section class="bottom-full-width" id="portfolio">
+					<hr>
+					<h2 class="section-title">Portfolio</h2>
+					<a href="https://github.com/KarpovDmitriy/rsschool-cv/blob/gh-pages/cv.md" class="left-section-link">CV in md file</a>
+				</section>
+				<section class="bottom-full-width" id="codeexample">
+					<hr>
+					<h2 class="section-title">Code Example</h2>
+					<pre><code class="language-javascript">
+for (let i = 1; i &lt;= 10; i++) {
+    let row = "";
+    for (let j = 1; j &lt;= 10; j++) {
+        row += (i * j).toString().padStart(4, ' ');
+    }
+    console.log(row);
+}
+</code></pre>
+						<hr>
+				</section>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer-container">
+				<a href="https://github.com/KarpovDmitriy" class="left-section-link">DmitriyKarpov GitHub</a>
+				<p class="copyright">Copyright © 2025.</p>
+				<a href="https://rs.school/courses/javascript-preschool-ru" class="right-footer-link">
+					<img src="assets/svg/rs-school-logo.svg" alt="RS School logo image" width="150" height="85">
+				</a>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
